@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  techconservice1:
+    image: techconservice1
+    build:
+      context: .
+      dockerfile: TechConService1/Dockerfile
